@@ -1,0 +1,15 @@
+{
+    "name"             : "nasa-apod",
+    "cwd"              : "/home/walker/meiqu/gamelive/api",
+    "script"           : "server.js",
+    "instances"        : "2",
+    "exec_mode"        : "cluster_mode",
+    "error_file"       : "logs/app.err.log",
+    "out_file"         : "logs/app.out.log",
+    "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+    "ignoreWatch"      : ["[\\/\\\\]\\./", "node_modules"],
+    "watch"            : false,
+    "env": {
+        "NODE_ENV": "production"
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "nasa-apod-parser",
+  "version": "0.0.1",
+  "dependencies": {
+    "moment": "^2.14.1",
+    "mongoose": "^4.5.10",
+    "superagent": "^2.2.0"
+  }
+}
